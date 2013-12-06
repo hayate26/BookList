@@ -5,8 +5,8 @@ Backbone.js、Marionette.js学習のためのサンプルプロジェクト
 ## 構成 ##
 
 - mock : 静的なモックアップ
-- Backbone : backbone.jsのみを使用して作成したバージョン
-- Marionette : backbone.jsに加え、marionette.jsを使用して作成したバージョン
+- backbone : backbone.jsのみを使用して作成したバージョン
+- marionette : backbone.jsに加え、marionette.jsを使用して作成したバージョン
 
 ## BookList 仕様 ##
 
