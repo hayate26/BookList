@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/booklist.css">
+    <title>BookList</title>
+</head>
+<body>
+    <header id="header">Book List</header>
+    <section id="contents">
+        <ul id="book-list">
+            <script type="text/template" id="book-item-template">
+                <label ><input type="checkbox" class="read"><%- title %></label>
+            </script>
+        </ul>
+    </section>
+    <footer id="footer">
+        <label><input type="checkbox" id="check-all">すべて既読</label>
+        <label><input type="checkbox" id="uncheck-all">すべて未読</label>
+    </footer>
+
+    <script type="text/javascript" src="lib/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/js/underscore/underscore.js"></script>
+    <script type="text/javascript" src="lib/js/backbone/backbone.js"></script>
+
+    <script type="text/javascript" src="js/BookModel.js"></script>
+    <script type="text/javascript" src="js/BookCollection.js"></script>
+    <script type="text/javascript" src="js/BookItemView.js"></script>
+    <script type="text/javascript" src="js/BookListView.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
