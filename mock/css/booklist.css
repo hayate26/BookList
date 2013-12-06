@@ -1,0 +1,27 @@
+#header {
+  width: 200px;
+  margin: 30px auto 10px auto;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#contents {
+  width: 300px;
+  margin: 10px auto 20px auto;
+}
+#contents #book-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#contents .list-item {
+  padding: 2px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #aaa;
+}
+
+#footer {
+  width: 300px;
+  margin: 10px auto;
+}
