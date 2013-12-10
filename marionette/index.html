@@ -9,15 +9,17 @@
     <header id="header">Book List</header>
     <section id="contents">
         <ul id="book-list">
-            <script type="text/template" id="book-item-template">
-                <label ><input type="checkbox" class="read" <%= unread ? '' : 'checked' %>><%- title %></label>
-            </script>
         </ul>
     </section>
     <footer id="footer">
         <label><input type="checkbox" id="check-all">すべて既読</label>
         <label><input type="checkbox" id="uncheck-all">すべて未読</label>
     </footer>
+
+    <!-- underscore.js templates -->
+    <script type="text/template" id="book-item-template">
+        <label ><input type="checkbox" class="read" <%= unread ? '' : 'checked' %>><%- title %></label>
+    </script>
 
     <script type="text/javascript" src="lib/js/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="lib/js/underscore/underscore.js"></script>
