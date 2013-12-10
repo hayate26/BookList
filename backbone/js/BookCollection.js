@@ -10,7 +10,4 @@ var BookCollection = Backbone.Collection.extend({
 
     url: "js/bookdata.json",
 
-    initialize: function() {
-        this.fetch({reset:true});
-    }
 });
