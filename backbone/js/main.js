@@ -10,6 +10,8 @@ $(function(){
     // 描画対象のエレメントと、本情報コレクションオブジェクトをoptionで渡す
     var listView = new BookListView({el:$listEl, collection:listData});
 
+    // フッタービュークラスを生成
+    var footerView = new FooterView({el:$('#footer'), collection:listData});
 
     // 本情報(JSON)を取得
     listData.fetch({reset:true});
