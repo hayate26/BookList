@@ -1,18 +1,18 @@
 [
     {
         "title": "JavaScript再入門",
-        "unread": false
+        "unread": true
     },
     {
         "title": "はじめてだったらJavaScript",
-        "unread": false
+        "unread": true
     },
     {
         "title": "３日でマスターJavaScript",
-        "unread": false
+        "unread": true
     },
     {
         "title": "そうだったのかJavaScript",
-        "unread": false
+        "unread": true
     }
 ]
