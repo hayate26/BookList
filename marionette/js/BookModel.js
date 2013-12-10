@@ -18,6 +18,15 @@ var BookModel = Backbone.Model.extend({
      */
     isUnread : function() {
         return this.get('unread');
+    },
+
+    /**
+     * unreadの値を反転させます。
+     * @method toggleUnread
+     */
+    toggleUnread: function() {
+        this.set('unread', !this.get('unread'));
     }
+
 
 });

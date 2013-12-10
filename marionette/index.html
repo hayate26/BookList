@@ -10,7 +10,7 @@
     <section id="contents">
         <ul id="book-list">
             <script type="text/template" id="book-item-template">
-                <label ><input type="checkbox" class="read"><%- title %></label>
+                <label ><input type="checkbox" class="read" <%= unread ? '' : 'checked' %>><%- title %></label>
             </script>
         </ul>
     </section>
